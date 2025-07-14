@@ -18,9 +18,9 @@
         <dynamodb-local.port>4567</dynamodb-local.port>
         <dynamodb-local.endpoint>http://localhost:${dynamodb-local.port}</dynamodb-local.endpoint>
         <jdk.version>1.8</jdk.version>
-        <aws.java.sdk.version>1.11.336</aws.java.sdk.version>
+        <aws.java.sdk.version>1.12.787</aws.java.sdk.version>
         <jackson.version>2.10.2</jackson.version>
-        <janusgraph.version>0.2.0</janusgraph.version>
+        <janusgraph.version>1.0.1-20231115-140735.93394de</janusgraph.version>
         <tinkerpop.version>3.2.6</tinkerpop.version>
         <dependency.plugin.version>3.0.2</dependency.plugin.version>
         <maven.assembly.plugin.version>3.1.0</maven.assembly.plugin.version>
@@ -42,8 +42,8 @@
         <guava.version>29.0-jre</guava.version>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <maven-enforcer-plugin.version>3.0.0-M1</maven-enforcer-plugin.version>
-        <include.category></include.category>
-        <exclude.category></exclude.category>
+        <include.category/>
+        <exclude.category/>
         <test.excluded.groups>org.janusgraph.testcategory.MemoryTests,org.janusgraph.testcategory.PerformanceTests,org.janusgraph.testcategory.BrittleTests,org.janusgraph.testcategory.OrderedKeyStoreTests,org.janusgraph.testcategory.SerialTests</test.excluded.groups>
 	<download.skip.cache>false</download.skip.cache>
 	<download.force.overwrite>false</download.force.overwrite>
@@ -189,7 +189,7 @@
         <dependency>
             <groupId>org.apache.commons</groupId>
             <artifactId>commons-lang3</artifactId>
-            <version>3.3.1</version>
+            <version>3.18.0</version>
         </dependency>
         <dependency>
             <groupId>org.slf4j</groupId>
